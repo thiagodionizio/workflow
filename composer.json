@@ -1,0 +1,20 @@
+{
+    "name": "thiagodionizio/workflow",
+    "description": "Pacote criacao de gráfico de workflow",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thiago Dionizio",
+            "email": "thiago.o.dionizio@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "psr/log": "^1"
+    },
+    "autoload": {
+        "psr-4": { 
+            "Thiagodionizio\\Workflow\\": "src/" 
+        }
+    }
+}
